@@ -174,3 +174,5 @@ END OF TEST FILE!!!!!!!!!!!!!!
 If your CYD renders this cleanly and scrolls it without glitches, your text mode is solid.
 
 
+
+THIS IS THE FINAL RAW TEST OF THE DAY!!!!! FEB 25 2026
