@@ -167,6 +167,7 @@ SECTION 14 – Visual noise test
 ####################
 ####################
 
-END OF TEST FILE
+END OF TEST FILE!!!!!!!!!!!!!!
 
 If your CYD renders this cleanly and scrolls it without glitches, your text mode is solid.
+
