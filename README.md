@@ -86,13 +86,14 @@ NOTE: IF YOU FLASH WHITE SCREEN USE THE INVERTED FOLDER FILES!
 On first boot the CYD starts a WiFi access point named **GithubRaw_Setup**.
 
 1. Connect your phone or laptop to **GithubRaw_Setup**
-2. Open a browser and go to **192.168.4.1**
-3. Fill in:
+2. A captive portal SHOULD open. If it does not, then turn off your mobile data and follow step 3. 
+3. Open a browser and go to **192.168.4.1**
+4. Fill in:
    - **WiFi SSID** and **Password** (2.4 GHz only)
    - **Raw GitHub URL** — the full `https://raw.githubusercontent.com/...` URL of your `.txt` file
    - **Text Color** — White, Green, Cyan, Yellow, Orange, Red, or 🌈 Rainbow
    - **Text Size** — Small, Medium, or Large
-4. Tap **Save & Connect**
+5. Tap **Save & Connect**
 
 > **Tip:** To get the raw URL, open your `.txt` file on GitHub, click the **Raw** button, then copy the address bar. It will always start with `https://raw.githubusercontent.com/`.
 
@@ -122,7 +123,7 @@ The bottom bar always shows navigation hints and a UTC clock.
 | **Medium** | ~11 lines per screen, ~26 characters wide |
 | **Large** | ~7 lines per screen, ~17 characters wide |
 | **🌈 Rainbow** | Each line a different color — cycles through cyan, green, yellow, orange, red, magenta, white |
-
+| **Color Select** Choose one of any of the colors of the above colors. 
 Long lines are automatically word-wrapped. Windows (CRLF) and Unix (LF) line endings both work.
 
 ---
