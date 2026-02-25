@@ -1,8 +1,172 @@
-CYD test feed
+CYD REMOTE TEXT MODE – DISPLAY TEST
 
-Hello from GitHub raw.
-If you can read this on the screen,
-your fetch + render code works.
+Device: ESP32 CYD
+Purpose: text rendering, paging, and font tests.
 
-Line 4
-Line 5
+SECTION 1 – Short lines
+
+One
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+
+SECTION 2 – Medium lines
+
+This is a medium length line used to test normal wrapping.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog again and again.
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789
+
+SECTION 3 – Very long lines (wrap stress)
+
+This is a very very very very very very very very very very very very long line to test how the CYD handles wrapping or clipping when the text is wider than the screen resolution.
+
+Another extremely long line with numbers 012345678901234567890123456789012345678901234567890 and words mixed together to force multiple wrap passes on small fonts.
+
+SECTION 4 – Symbols and punctuation
+
+! @ # $ % ^ & * ( ) _ + - = { } [ ] | \ : ; " ' < > , . ? /
+
+~ `
+
+Math style:
+1 + 2 = 3
+5 * 8 = 40
+100 / 4 = 25
+7 - 3 = 4
+
+SECTION 5 – Brackets and formatting characters
+
+(Parentheses)
+[Square brackets]
+{Curly braces}
+<Angle brackets>
+
+((Nested (parentheses inside parentheses)))
+
+SECTION 6 – Alignment / visual scan test
+
+|----10----|----20----|----30----|----40----|
+|||||
+
+SECTION 7 – Mixed case & font comparison
+
+lowercase
+UPPERCASE
+Title Case Words
+MiXeD cAsE TeXt
+
+iiiiiiiiii
+WWWWWWWWWW
+MMMMMMMMMM
+..........
+:::
+;;;;;;;;;;
+
+SECTION 8 – UTF-8 / extended characters
+(only a few – for compatibility testing)
+
+° ± µ Ω π
+© ® ™
+→ ← ↑ ↓
+
+Check if these render or show as boxes.
+
+SECTION 9 – Paragraph scrolling test
+
+This is a longer paragraph designed to make sure the scrolling and paging logic works correctly when more than one screen of text must be displayed on the CYD. You should be able to scroll smoothly from the beginning of this paragraph to the end without skipping lines or tearing text on screen.
+
+Embedded systems often struggle with large buffers and dynamic text layout, so this paragraph is intentionally verbose and repetitive. Embedded systems often struggle with large buffers and dynamic text layout, so this paragraph is intentionally verbose and repetitive.
+
+The goal here is not readability, but stability and consistency while rendering a large block of continuous text.
+
+SECTION 10 – Blank line handling
+
+This line appears after two blank lines.
+
+This line appears after another blank line.
+
+SECTION 11 – Numbers and counters
+
+0000000001
+0000000002
+0000000003
+0000000004
+0000000005
+0000000006
+0000000007
+0000000008
+0000000009
+0000000010
+
+SECTION 12 – Page fill test
+
+Line 01
+Line 02
+Line 03
+Line 04
+Line 05
+Line 06
+Line 07
+Line 08
+Line 09
+Line 10
+Line 11
+Line 12
+Line 13
+Line 14
+Line 15
+Line 16
+Line 17
+Line 18
+Line 19
+Line 20
+Line 21
+Line 22
+Line 23
+Line 24
+Line 25
+Line 26
+Line 27
+Line 28
+Line 29
+Line 30
+Line 31
+Line 32
+Line 33
+Line 34
+Line 35
+Line 36
+Line 37
+Line 38
+Line 39
+Line 40
+
+SECTION 13 – Mixed symbols and text
+
+[INFO] System ready.
+[WARN] Low memory condition detected.
+[ERROR] Failed to load resource.
+[DEBUG] Render loop running.
+
+Status: OK
+Status: FAIL
+Status: UNKNOWN
+
+SECTION 14 – Visual noise test
+
+####################
+####################
+####################
+
+END OF TEST FILE
+
+If your CYD renders this cleanly and scrolls it without glitches, your text mode is solid.
