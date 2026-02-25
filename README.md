@@ -71,13 +71,15 @@ GithubRaw turns a $10 ESP32 display board into a **live text feed reader** drive
 ### 1. Clone or download this repo
 
 ```bash
-git clone https://github.com/your-username/GithubRaw
+git clone (https://github.com/Coreymillia/Github-Raw-CYD)
 cd GithubRaw
 ```
 
 ### 2. Flash the firmware
 
 Open the folder in VS Code with PlatformIO installed, then click **Upload**.
+
+NOTE: IF YOU FLASH WHITE SCREEN USE THE INVERTED FOLDER FILES!
 
 ### 3. Configure via the setup portal
 
